@@ -1,0 +1,17 @@
+{
+  "name": "css-practices",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Progressive CSS exercises with browser tests for computed style and layout.",
+  "scripts": {
+    "test": "jest",
+    "hashes": "node scripts/write-starter-hashes.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "jest": "29.7.0",
+    "playwright": "1.56.1"
+  }
+}
