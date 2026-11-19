@@ -7,6 +7,7 @@ Hands-on CSS exercises for students who are learning to style a page. Each pract
 | | Where to go |
 | --- | --- |
 | [Practices](#practices) | [practices/README.md](practices/README.md) |
+| [Curriculum](#curriculum) | [curriculum/README.md](curriculum/README.md) |
 | [Lesson 01 practices](#practices) | [practices/lesson-01/README.md](practices/lesson-01/README.md) |
 | [Extensions](#extensions) | [extensions/README.md](extensions/README.md) |
 | [Repository structure](#repository-structure) | Folders in this repo |
@@ -19,6 +20,10 @@ Hands-on CSS exercises for students who are learning to style a page. Each pract
 | [Add a lesson](#add-a-lesson) | |
 
 Each linked README continues the map. A lesson README links its chapters. A chapter README links its exercises. Layout rules for later edits are in [AGENTS.md](AGENTS.md).
+
+## Curriculum
+
+[curriculum/README.md](curriculum/README.md) is the learning pathway, the study guides, and the classroom outlines. The exercises stay in [practices/README.md](practices/README.md).
 
 ## Practices
 
@@ -35,6 +40,8 @@ You edit `style.css` in an exercise folder, read that folder's `README.md`, and 
 ## Repository structure
 
 ```text
+curriculum/
+  README.md     Learning pathway and module study materials
 practices/
   README.md     Practice lesson list
   lesson-01/    CSS fundamentals

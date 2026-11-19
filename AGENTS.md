@@ -7,6 +7,7 @@ The root [README.md](README.md) is the map of this repository. Keep that file sh
 | Topic | File | What belongs there |
 | --- | --- | --- |
 | Course map | [README.md](README.md) | Table of contents, one-paragraph summaries, install, tests, and CI |
+| Curriculum | [curriculum/README.md](curriculum/README.md) | Module specifications, study guides, presentation outlines, podcast briefs, and assessments |
 | Practices | [practices/README.md](practices/README.md) | The lesson list |
 | A lesson | `practices/lesson-NN/README.md` | That lesson's chapters |
 | A chapter | `practices/lesson-NN/NN-topic/README.md` | That chapter's exercises |
