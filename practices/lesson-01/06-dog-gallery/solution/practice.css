@@ -1,0 +1,23 @@
+/*
+ * SOLUTION
+ * This file replaces css/practice.css.
+ * The page still uses the shared base.css and the same photographs.
+ */
+
+.lab-block .dog-card {
+  display: block;
+}
+
+.lab-inline-block .dog-card {
+  display: inline-block;
+}
+
+.lab-inline .dog-card {
+  display: inline;
+}
+
+.gallery {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}

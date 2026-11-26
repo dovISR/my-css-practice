@@ -1,0 +1,67 @@
+/*
+ * TODO 1:
+ * Make this playground a row.
+ * display: flex goes on the parent, not on the animals.
+ */
+
+.playground-row {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 2:
+ * Group the animals in the center of the main axis.
+ */
+
+.playground-center {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 3:
+ * Place the cat at one end and the rabbit at the other.
+ */
+
+.playground-between {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 4:
+ * Center the animals on the cross axis.
+ * In a row, the cross axis runs from top to bottom.
+ * The blue area above and below the cards should become even.
+ */
+
+.playground-align {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 5:
+ * Stack this playground from top to bottom.
+ * The main axis is now vertical. justify-content would move animals up and down.
+ */
+
+.playground-column {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 6:
+ * Add 16px of space between the animals in every playground.
+ */
+
+.playground {
+  /* Write your CSS here */
+}
+
+/*
+ * Bonus:
+ * Try space-around, then space-evenly, on this playground.
+ * Leave the playground above set to space-between so you can compare them.
+ */
+
+.playground-evenly {
+  /* Write your CSS here */
+}

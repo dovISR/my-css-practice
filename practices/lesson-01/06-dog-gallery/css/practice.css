@@ -1,0 +1,61 @@
+/*
+ * TODO 1:
+ * Make each card in the Block lab a block box.
+ * A block card starts on its own line and uses the 200px width from base.css.
+ */
+
+.lab-block .dog-card {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 2:
+ * Sit the Inline-block cards in a row.
+ * They should keep the width and the min-height from base.css.
+ */
+
+.lab-inline-block .dog-card {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 3:
+ * Set the Inline lab cards to inline.
+ * An inline box ignores width and height, so the 200px card size disappears.
+ * The photograph keeps its own size because that size is on the image.
+ * The name can sit beside the photo, because an inline card does not force a new line.
+ */
+
+.lab-inline .dog-card {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 4:
+ * Turn the dashed tray into a flex container.
+ * display: flex belongs on the parent, .gallery, not on the cards.
+ */
+
+.gallery {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 5:
+ * Add 16px of space between the cards in the tray.
+ * gap goes on the same parent as display: flex.
+ */
+
+.gallery {
+  /* Write your CSS here */
+}
+
+/*
+ * Bonus:
+ * Let the cards wrap onto another row when the tray is not wide enough.
+ * flex-wrap: wrap also goes on .gallery.
+ */
+
+.gallery {
+  /* Write your CSS here */
+}

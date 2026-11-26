@@ -1,0 +1,34 @@
+/*
+ * SOLUTION
+ * This file replaces css/practice.css.
+ * Backgrounds stay in the shared base.css.
+ */
+
+.solid {
+  border: 4px solid #1d4ed8;
+}
+
+.dashed {
+  border: 4px dashed #c2410c;
+}
+
+.dotted {
+  border: 4px dotted #15803d;
+}
+
+.thick {
+  border: 12px solid #6d28d9;
+}
+
+.rounded {
+  border: 4px solid #0f766e;
+  border-radius: 28px;
+}
+
+.double {
+  border: 8px double #be123c;
+}
+
+.circle {
+  border-radius: 50%;
+}

@@ -1,0 +1,56 @@
+/*
+ * TODO 1:
+ * Add 20px of padding inside the first frame.
+ * Padding is inside the dark border. The blue mat should appear around the lake.
+ */
+
+.frame-pad-20 {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 2:
+ * Give the second frame more padding, about 40px.
+ * The green mat should be wider than the blue one.
+ */
+
+.frame-pad-40 {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 3:
+ * Add space between the frames.
+ * Margin is outside the dark border, so the gray page shows through.
+ * Set margin-top and margin-bottom. Leave the horizontal auto margins in place,
+ * or use the shorthand margin: 28px auto.
+ */
+
+.frame {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 4:
+ * Try a larger or smaller margin until the gray gap is obvious.
+ * The declaration above is the place for that experiment.
+ */
+
+/*
+ * TODO 5:
+ * Pad the four sides of the beach frame by different amounts.
+ * Use padding-top, padding-right, padding-bottom, and padding-left.
+ */
+
+.frame-sides {
+  /* Write your CSS here */
+}
+
+/*
+ * Bonus:
+ * This note has a width. Center it on the page.
+ */
+
+.centerpiece {
+  /* Write your CSS here */
+}

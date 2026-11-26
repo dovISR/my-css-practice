@@ -1,0 +1,190 @@
+/*
+ * BASE STYLES
+ * These styles are already completed.
+ * Students should not modify this file.
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fff7ed;
+  color: #431407;
+  font-family: "Nunito", "Avenir Next", "Segoe UI", sans-serif;
+  line-height: 1.45;
+}
+
+img {
+  border-radius: 12px;
+}
+
+.shell {
+  width: min(960px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 28px 0 72px;
+}
+
+.site-header {
+  background: #14532d;
+  color: #f0fdf4;
+  border-radius: 28px;
+  padding: 28px 28px 22px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #bbf7d0;
+}
+
+.site-header h1 {
+  margin: 0 0 8px;
+  font-family: "Fraunces", Georgia, serif;
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  font-weight: 600;
+  line-height: 1.05;
+}
+
+.lede {
+  margin: 0;
+  max-width: 38rem;
+  font-size: 1.12rem;
+}
+
+.mission,
+.lab,
+.tray,
+.compare-note {
+  background: #fff;
+  border-radius: 22px;
+  box-shadow: 0 12px 30px rgba(20, 83, 45, 0.08);
+}
+
+.mission {
+  margin-top: 22px;
+  padding: 8px 24px 18px;
+}
+
+.mission h2,
+.lab h2,
+.tray h2 {
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 600;
+}
+
+.mission li + li {
+  margin-top: 6px;
+}
+
+.compare-note {
+  margin-top: 22px;
+  padding: 8px 24px 16px;
+}
+
+.compare-note p {
+  margin: 0 0 8px;
+}
+
+.lab {
+  margin-top: 22px;
+  padding: 16px 18px 8px;
+}
+
+.lab h2,
+.tray h2 {
+  margin: 0 0 6px;
+}
+
+.lab p,
+.tray p {
+  margin: 0 0 14px;
+}
+
+.look-for {
+  color: #9a3412;
+  font-weight: 800;
+}
+
+/*
+ * Card paint, type, and photo size are finished.
+ * display, gap, and flex-wrap are not set here.
+ * The lab cards are spans, so they start as inline.
+ * Width and min-height apply only after the card becomes a block or an inline-block.
+ */
+
+.dog-card {
+  padding: 10px;
+  border-radius: 18px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.lab .dog-card {
+  width: 200px;
+  min-height: 248px;
+  margin: 0 12px 12px 0;
+}
+
+.gallery .dog-card {
+  width: 200px;
+}
+
+.dog-luna { background: #ffedd5; }
+.dog-milo { background: #e0f2fe; }
+.dog-coco { background: #fce7f3; }
+.dog-bear { background: #e0e7ff; }
+.dog-daisy { background: #fef3c7; }
+.dog-otto { background: #dcfce7; }
+
+.dog-card img {
+  width: 180px;
+  height: 140px;
+  object-fit: cover;
+  background: #fff;
+  vertical-align: top;
+}
+
+.lab .dog-card img {
+  width: 148px;
+  height: 112px;
+}
+
+.dog-name,
+.dog-breed {
+  text-align: center;
+}
+
+.dog-name {
+  margin-top: 8px;
+  font-weight: 800;
+}
+
+.dog-breed {
+  color: #9a3412;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.tray {
+  margin-top: 22px;
+  padding: 16px 18px 20px;
+}
+
+.gallery {
+  background: #fff7ed;
+  border: 3px dashed #fb923c;
+  border-radius: 20px;
+  padding: 16px;
+}
+
+code {
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 0.92em;
+}

@@ -1,0 +1,84 @@
+/*
+ * TODO 1:
+ * Draw a soft border around each card.
+ */
+
+.card {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 2:
+ * Add about 20px of padding inside each card.
+ */
+
+.card {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 3:
+ * Give each card a width of 280px so three of them can share a line.
+ * max-width: 100% keeps a card inside a narrow window.
+ */
+
+.card {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 4:
+ * Lay the cards out in a row.
+ * display: flex belongs on the parent, .roster.
+ */
+
+.roster {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 5:
+ * Center that row.
+ */
+
+.roster {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 6:
+ * Add about 24px of space between the cards.
+ * gap goes on .roster, next to display: flex.
+ */
+
+.roster {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 7:
+ * Round the corners of the cards.
+ */
+
+.card {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 8:
+ * Turn the contact link into a button.
+ * Give it a background color, white text, padding, and rounded corners.
+ */
+
+.button {
+  /* Write your CSS here */
+}
+
+/*
+ * Bonus:
+ * Darken the button when the pointer is over it.
+ */
+
+.button:hover {
+  /* Write your CSS here */
+}

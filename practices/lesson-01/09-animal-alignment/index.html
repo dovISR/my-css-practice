@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Animal Alignment Playground</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Nunito:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/practice.css">
+  </head>
+  <body>
+    <div class="shell">
+      <header class="site-header">
+        <p class="eyebrow">Lesson 01 · Exercise 09</p>
+        <h1>🐱 Animal Alignment Playground</h1>
+        <p class="lede">Each blue box is a parent. The cat, the dog, and the rabbit are the children. You move the children by writing on the parent.</p>
+      </header>
+
+      <section class="mission" aria-label="Your mission">
+        <h2>Your mission</h2>
+        <ol>
+          <li>Make the first playground a row.</li>
+          <li>Center the next group along the main axis.</li>
+          <li>Push the outer animals to the two ends.</li>
+          <li>Center a row from top to bottom.</li>
+          <li>Stack one playground. The main axis becomes vertical.</li>
+          <li>Add space between the animals in every box.</li>
+        </ol>
+      </section>
+
+      <section class="axes" aria-label="Main axis and cross axis">
+        <h2>Main axis and cross axis</h2>
+        <div class="axis">
+          <strong>Main axis, while the direction is a row</strong>
+          <i class="arrow arrow-across"></i>
+        </div>
+        <p><code>justify-content</code> moves animals along the main axis. In a row, that is left and right.</p>
+        <div class="axis">
+          <strong>Cross axis, while the direction is a row</strong>
+          <i class="arrow arrow-down"></i>
+        </div>
+        <p><code>align-items</code> moves animals along the cross axis. In a row, that is up and down. <code>flex-direction: column</code> swaps the axes. The main axis runs down the page, and the cross axis runs across it.</p>
+      </section>
+
+      <section class="station">
+        <h2>1 · Make a row</h2>
+        <p>The animals stack because the parent is an ordinary block. Flex belongs on this blue box.</p>
+        <div class="playground playground-row">
+          <article class="animal animal-cat">
+            <img src="assets/images/cat.jpg" alt="Black and white cat resting its paws on a rail">
+            <h3>Cat</h3>
+          </article>
+          <article class="animal animal-dog">
+            <img src="assets/images/dog.jpg" alt="Brown and white dog on a beach, looking toward the camera">
+            <h3>Dog</h3>
+          </article>
+          <article class="animal animal-rabbit">
+            <img src="assets/images/rabbit.jpg" alt="White rabbit sitting in a garden">
+            <h3>Rabbit</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="station">
+        <h2>2 · Center on the main axis</h2>
+        <p>Keep them in a row, and gather the group in the horizontal center. Empty blue space stays on both sides.</p>
+        <div class="playground playground-center">
+          <article class="animal animal-cat">
+            <img src="assets/images/cat.jpg" alt="Black and white cat resting its paws on a rail">
+            <h3>Cat</h3>
+          </article>
+          <article class="animal animal-dog">
+            <img src="assets/images/dog.jpg" alt="Brown and white dog on a beach, looking toward the camera">
+            <h3>Dog</h3>
+          </article>
+          <article class="animal animal-rabbit">
+            <img src="assets/images/rabbit.jpg" alt="White rabbit sitting in a garden">
+            <h3>Rabbit</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="station">
+        <h2>3 · Space between</h2>
+        <p>The cat meets the left edge. The rabbit meets the right edge. The dog stays in the middle.</p>
+        <div class="playground playground-between">
+          <article class="animal animal-cat">
+            <img src="assets/images/cat.jpg" alt="Black and white cat resting its paws on a rail">
+            <h3>Cat</h3>
+          </article>
+          <article class="animal animal-dog">
+            <img src="assets/images/dog.jpg" alt="Brown and white dog on a beach, looking toward the camera">
+            <h3>Dog</h3>
+          </article>
+          <article class="animal animal-rabbit">
+            <img src="assets/images/rabbit.jpg" alt="White rabbit sitting in a garden">
+            <h3>Rabbit</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="station">
+        <h2>4 · Center on the cross axis</h2>
+        <p>The blue box is taller than the cards. A row normally starts at the top. Move the cards to the vertical middle.</p>
+        <div class="playground playground-align">
+          <article class="animal animal-cat">
+            <img src="assets/images/cat.jpg" alt="Black and white cat resting its paws on a rail">
+            <h3>Cat</h3>
+          </article>
+          <article class="animal animal-dog">
+            <img src="assets/images/dog.jpg" alt="Brown and white dog on a beach, looking toward the camera">
+            <h3>Dog</h3>
+          </article>
+          <article class="animal animal-rabbit">
+            <img src="assets/images/rabbit.jpg" alt="White rabbit sitting in a garden">
+            <h3>Rabbit</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="station">
+        <h2>5 · Column</h2>
+        <p>Stack the animals. The main axis now runs from top to bottom, so a later change to <code>justify-content</code> would move them up and down.</p>
+        <div class="playground playground-column">
+          <article class="animal animal-cat">
+            <img src="assets/images/cat.jpg" alt="Black and white cat resting its paws on a rail">
+            <h3>Cat</h3>
+          </article>
+          <article class="animal animal-dog">
+            <img src="assets/images/dog.jpg" alt="Brown and white dog on a beach, looking toward the camera">
+            <h3>Dog</h3>
+          </article>
+          <article class="animal animal-rabbit">
+            <img src="assets/images/rabbit.jpg" alt="White rabbit sitting in a garden">
+            <h3>Rabbit</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="station">
+        <h2>Bonus · space-evenly</h2>
+        <p>Compare this with the space-between box above. The end gaps should match the gaps between the animals.</p>
+        <div class="playground playground-evenly">
+          <article class="animal animal-cat">
+            <img src="assets/images/cat.jpg" alt="Black and white cat resting its paws on a rail">
+            <h3>Cat</h3>
+          </article>
+          <article class="animal animal-dog">
+            <img src="assets/images/dog.jpg" alt="Brown and white dog on a beach, looking toward the camera">
+            <h3>Dog</h3>
+          </article>
+          <article class="animal animal-rabbit">
+            <img src="assets/images/rabbit.jpg" alt="White rabbit sitting in a garden">
+            <h3>Rabbit</h3>
+          </article>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+/*
+ * TODO 1:
+ * Add a solid border around the blue box.
+ */
+
+.solid {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 2:
+ * Add a dashed border around the orange box.
+ */
+
+.dashed {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 3:
+ * Add a dotted border around the green box.
+ */
+
+.dotted {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 4:
+ * Give the purple box a thick border.
+ * A width around 12px is enough to see the change.
+ */
+
+.thick {
+  /* Write your CSS here */
+}
+
+/*
+ * TODO 5:
+ * Choose a border color you can see against each background.
+ * Set it in the rules above, as part of border or with border-color.
+ */
+
+/*
+ * TODO 6:
+ * Give the teal box a border, then round its corners.
+ */
+
+.rounded {
+  /* Write your CSS here */
+}
+
+/*
+ * Add a double border around the pink box.
+ * The width needs to be wide enough for both lines to show.
+ */
+
+.double {
+  /* Write your CSS here */
+}
+
+/*
+ * Bonus:
+ * Turn the yellow square into a circle.
+ */
+
+.circle {
+  /* Write your CSS here */
+}

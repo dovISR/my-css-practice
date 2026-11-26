@@ -41,7 +41,24 @@ Graded in this repo, in folder order. Study notes are in [curriculum/README.md](
 | [css.float](modules/css.float/specification.md) | A right-floated aside whose right edge meets the section | [Float Aside](../practices/lesson-01/04-float/01-float-aside/README.md) |
 | [css.flex](modules/css.flex/specification.md) | A row of cards with a 16px gap | [Card Row](../practices/lesson-01/05-flex/01-card-row/README.md) |
 
-This order is the graded order. It is not the ideal prerequisite order. Color is graded before any exercise on selectors, the cascade, or the box model. The color study guide teaches the minimum of those ideas that the exercise already assumes. The chapters below are not inserted into lesson 01.
+This order is the graded order. It is not the ideal prerequisite order. Color is graded before any exercise on selectors, the cascade, or the box model. The color study guide teaches the minimum of those ideas that the exercise already assumes. Chapters 06–15 are the ungraded pages in this same lesson. The proposed modules further down are not exercises yet.
+
+## CSS, visual pages in lesson 01
+
+These sit in [lesson 01](../practices/lesson-01/README.md) after Card Row. They are not graded modules and they have no `test.js`. Chapters 06–10 practice one idea on a page that is already colored. Chapters 11–15 build a whole website from those ideas.
+
+| Chapter | What the student builds |
+| --- | --- |
+| [06 — Dog Gallery](../practices/lesson-01/06-dog-gallery/README.md) | Block, inline, inline-block, flex, and gap on one set of cards |
+| [07 — Borders](../practices/lesson-01/07-border-playground/README.md) | Solid, dashed, dotted, thick, rounded, and double borders |
+| [08 — Frames](../practices/lesson-01/08-picture-frames/README.md) | Padding inside a frame and margin outside it |
+| [09 — Alignment](../practices/lesson-01/09-animal-alignment/README.md) | Main axis and cross axis with three animals |
+| [10 — Mini Profiles](../practices/lesson-01/10-profile-cards/README.md) | A small row of cards that combines the ideas above |
+| [11 — Travel](../practices/lesson-01/11-travel-explorer/README.md) | A destination row with flex, gap, and cropped photographs |
+| [12 — Cinema](../practices/lesson-01/12-movie-gallery/README.md) | A wrapping poster shelf with a hover scale |
+| [13 — Profile](../practices/lesson-01/13-profile-dashboard/README.md) | A centered profile made of nested flex containers |
+| [14 — Restaurant](../practices/lesson-01/14-restaurant-landing/README.md) | A navigation row, a split hero, and a dish row |
+| [15 — Store](../practices/lesson-01/15-urban-store/README.md) | A wrapping product gallery |
 
 ## CSS, proposed
 

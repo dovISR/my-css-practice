@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Dog Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Nunito:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/practice.css">
+  </head>
+  <body>
+    <div class="shell">
+      <header class="site-header">
+        <p class="eyebrow">Lesson 01 · Exercise 06</p>
+        <h1>🐶 The Dog Gallery</h1>
+        <p class="lede">Six dogs, four ways to arrange a box. The colors, photos, and type are already done. You decide how the boxes sit.</p>
+      </header>
+
+      <section class="mission" aria-label="Your mission">
+        <h2>Your mission</h2>
+        <ol>
+          <li>Stack the cards in the Block lab.</li>
+          <li>Sit the Inline-block cards in a row and keep their size.</li>
+          <li>Set the Inline cards to inline and watch the 200px size disappear.</li>
+          <li>Make the dashed tray a flex row. Flex goes on the tray, not on the dogs.</li>
+          <li>Put space between the cards in that tray.</li>
+        </ol>
+      </section>
+
+      <section class="compare-note" aria-label="What each display value does">
+        <h2>What changes</h2>
+        <p><strong>Block</strong> starts a new line and keeps a width.</p>
+        <p><strong>Inline-block</strong> sits beside its neighbors and keeps a width.</p>
+        <p><strong>Inline</strong> sits beside its neighbors and ignores width and height.</p>
+        <p><strong>Flex</strong> is written on the parent. The children line up, and gap is the space between them.</p>
+      </section>
+
+      <section class="lab lab-block">
+        <h2>1 · Block</h2>
+        <p>These cards are spans, so they start inline. <span class="look-for">Look for a stack of 200px cards, one dog per line.</span></p>
+        <span class="dog-card dog-luna"><img src="assets/images/luna.jpg" alt="Golden retriever sitting with a tulip in its mouth"><span class="dog-name">Luna</span> <span class="dog-breed">Golden Retriever</span></span><span class="dog-card dog-milo"><img src="assets/images/milo.jpg" alt="White Samoyed sitting against a pink background"><span class="dog-name">Milo</span> <span class="dog-breed">Samoyed</span></span><span class="dog-card dog-coco"><img src="assets/images/coco.jpg" alt="Corgi with red paper hearts around its face"><span class="dog-name">Coco</span> <span class="dog-breed">Corgi</span></span>
+      </section>
+
+      <section class="lab lab-inline-block">
+        <h2>2 · Inline-block</h2>
+        <p><span class="look-for">Look for the same 200px cards sitting side by side.</span></p>
+        <span class="dog-card dog-luna"><img src="assets/images/luna.jpg" alt="Golden retriever sitting with a tulip in its mouth"><span class="dog-name">Luna</span> <span class="dog-breed">Golden Retriever</span></span><span class="dog-card dog-milo"><img src="assets/images/milo.jpg" alt="White Samoyed sitting against a pink background"><span class="dog-name">Milo</span> <span class="dog-breed">Samoyed</span></span><span class="dog-card dog-coco"><img src="assets/images/coco.jpg" alt="Corgi with red paper hearts around its face"><span class="dog-name">Coco</span> <span class="dog-breed">Corgi</span></span>
+      </section>
+
+      <section class="lab lab-inline">
+        <h2>3 · Inline</h2>
+        <p>Base styles ask every lab card for a width of 200px and a minimum height of 248px. <span class="look-for">Inline layout ignores both. Compare this lab with the row above.</span></p>
+        <span class="dog-card dog-luna"><img src="assets/images/luna.jpg" alt="Golden retriever sitting with a tulip in its mouth"><span class="dog-name">Luna</span> <span class="dog-breed">Golden Retriever</span></span><span class="dog-card dog-milo"><img src="assets/images/milo.jpg" alt="White Samoyed sitting against a pink background"><span class="dog-name">Milo</span> <span class="dog-breed">Samoyed</span></span><span class="dog-card dog-coco"><img src="assets/images/coco.jpg" alt="Corgi with red paper hearts around its face"><span class="dog-name">Coco</span> <span class="dog-breed">Corgi</span></span>
+      </section>
+
+      <section class="tray">
+        <h2>4 · Flex gallery</h2>
+        <p>The dashed rectangle is the parent. The six cards inside it are already blocks, so they stack. <span class="look-for">After flex, they share one row, with a gap, and wrap if the row runs out of room.</span></p>
+        <div class="gallery">
+          <div class="dog-card dog-luna">
+            <img src="assets/images/luna.jpg" alt="Golden retriever sitting with a tulip in its mouth">
+            <span class="dog-name">Luna</span>
+            <span class="dog-breed">Golden Retriever</span>
+          </div>
+          <div class="dog-card dog-milo">
+            <img src="assets/images/milo.jpg" alt="White Samoyed sitting against a pink background">
+            <span class="dog-name">Milo</span>
+            <span class="dog-breed">Samoyed</span>
+          </div>
+          <div class="dog-card dog-coco">
+            <img src="assets/images/coco.jpg" alt="Corgi with red paper hearts around its face">
+            <span class="dog-name">Coco</span>
+            <span class="dog-breed">Corgi</span>
+          </div>
+          <div class="dog-card dog-bear">
+            <img src="assets/images/bear.jpg" alt="Siberian husky sitting in a grassy field">
+            <span class="dog-name">Bear</span>
+            <span class="dog-breed">Siberian Husky</span>
+          </div>
+          <div class="dog-card dog-daisy">
+            <img src="assets/images/daisy.jpg" alt="Fluffy chow chow lying down in white sunglasses">
+            <span class="dog-name">Daisy</span>
+            <span class="dog-breed">Chow Chow</span>
+          </div>
+          <div class="dog-card dog-otto">
+            <img src="assets/images/otto.jpg" alt="Two dachshunds standing on a sidewalk">
+            <span class="dog-name">Otto</span>
+            <span class="dog-breed">Dachshund</span>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

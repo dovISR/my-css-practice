@@ -1,0 +1,39 @@
+/*
+ * SOLUTION
+ * This file replaces css/practice.css.
+ * The blue parent box and the animal cards stay in the shared base.css.
+ */
+
+.playground-row {
+  display: flex;
+}
+
+.playground-center {
+  display: flex;
+  justify-content: center;
+}
+
+.playground-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.playground-align {
+  display: flex;
+  align-items: center;
+}
+
+.playground-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.playground {
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.playground-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}

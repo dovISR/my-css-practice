@@ -9,7 +9,9 @@ Hands-on CSS exercises for students who are learning to style a page. Each pract
 | [Practices](#practices) | [practices/README.md](practices/README.md) |
 | [Curriculum](#curriculum) | [curriculum/README.md](curriculum/README.md) |
 | [Lesson 01 practices](#practices) | [practices/lesson-01/README.md](practices/lesson-01/README.md) |
-| [Visual CSS challenges](#visual-css-challenges) | [practices/visual-challenges/README.md](practices/visual-challenges/README.md) |
+| [Level 1 — CSS fundamentals](#level-1--css-fundamentals) | Exercises 01–05 |
+| [Level 2 — Visual CSS basics](#level-2--visual-css-basics) | Exercises 06–10 |
+| [Level 3 — Real website projects](#level-3--real-website-projects) | Exercises 11–15 |
 | [Extensions](#extensions) | [extensions/README.md](extensions/README.md) |
 | [Repository structure](#repository-structure) | Folders in this repo |
 | [Who it is for](#who-it-is-for) | |
@@ -33,19 +35,36 @@ You edit `style.css` in an exercise folder, read that folder's `README.md`, and 
 | Lesson | README |
 | --- | --- |
 | 01 — CSS fundamentals | [practices/lesson-01/README.md](practices/lesson-01/README.md) |
-| Visual CSS challenges | [practices/visual-challenges/README.md](practices/visual-challenges/README.md) |
 
-## Visual CSS challenges
+## Level 1 — CSS fundamentals
 
-Five pages for after the flex exercise. Students build a travel site, a film shelf, a profile, a restaurant, and a shop with HTML and CSS only. The starter stylesheet has TODO comments. The finished page is in each exercise’s `solution/` folder. `npm test` does not grade these. Briefs and previews are in [practices/visual-challenges/README.md](practices/visual-challenges/README.md).
+Exercises 01–05 in [lesson 01](practices/lesson-01/README.md). One property family at a time: color, border, display, float, then flex. You edit `style.css`. `npm test` grades these five.
 
-| # | Exercise | Difficulty | Main CSS topics | Time | Brief | Preview |
-| --- | --- | --- | --- | --- | --- | --- |
-| 06 | Travel Destination Explorer | Beginner | Flex row, gap, alignment, `object-fit` | 30–40 min | [README](practices/visual-challenges/06-travel-explorer/README.md) | [preview](practices/visual-challenges/06-travel-explorer/preview.png) |
-| 07 | Movie Streaming Gallery | Beginner | Wrapping flex, hover, dark theme | 35–45 min | [README](practices/visual-challenges/07-movie-gallery/README.md) | [preview](practices/visual-challenges/07-movie-gallery/preview.png) |
-| 08 | Professional Profile Dashboard | Beginner+ | Nested flex, column, circular image | 35–45 min | [README](practices/visual-challenges/08-profile-dashboard/README.md) | [preview](practices/visual-challenges/08-profile-dashboard/preview.png) |
-| 09 | Restaurant Landing Page | Beginner+ | Navigation, hero, dish cards | 40–45 min | [README](practices/visual-challenges/09-restaurant-landing/README.md) | [preview](practices/visual-challenges/09-restaurant-landing/preview.png) |
-| 10 | Modern E-Commerce Store | Beginner+ | Product gallery, `flex`, `object-fit` | 40–45 min | [README](practices/visual-challenges/10-urban-store/README.md) | [preview](practices/visual-challenges/10-urban-store/preview.png) |
+## Level 2 — Visual CSS basics
+
+Exercises 06–10. A small colorful page for one idea. The color, type, and pictures are already in `css/base.css`. You edit only `css/practice.css`. `npm test` does not grade them.
+
+The aim is to see one property change the page: display, then borders, then padding and margin, then flex alignment, then a small profile that combines them.
+
+| # | Exercise | Objective | Brief |
+| --- | --- | --- | --- |
+| 06 | Dog Gallery | `block`, `inline`, `inline-block`, `flex`, and `gap` | [README](practices/lesson-01/06-dog-gallery/README.md) |
+| 07 | Border Playground | Solid, dashed, dotted, thick, rounded, and double borders | [README](practices/lesson-01/07-border-playground/README.md) |
+| 08 | Picture Frame Studio | Padding inside a frame, margin outside it | [README](practices/lesson-01/08-picture-frames/README.md) |
+| 09 | Animal Alignment Playground | `justify-content`, `align-items`, and `flex-direction` | [README](practices/lesson-01/09-animal-alignment/README.md) |
+| 10 | Mini Profile Cards | A border, padding, radius, and a flex row together | [README](practices/lesson-01/10-profile-cards/README.md) |
+
+## Level 3 — Real website projects
+
+Exercises 11–15. A whole page that uses those properties together. You edit `style.css`. The finished page is in each exercise’s `solution/` folder. Do these after level 2.
+
+| # | Exercise | Objective | Brief |
+| --- | --- | --- | --- |
+| 11 | Travel Destination Explorer | A destination row with flex, gap, and cropped photographs | [README](practices/lesson-01/11-travel-explorer/README.md) |
+| 12 | Movie Streaming Gallery | A wrapping poster shelf | [README](practices/lesson-01/12-movie-gallery/README.md) |
+| 13 | Professional Profile Dashboard | A centered profile made of nested flex containers | [README](practices/lesson-01/13-profile-dashboard/README.md) |
+| 14 | Restaurant Landing Page | A navigation row, a split hero, and a dish row | [README](practices/lesson-01/14-restaurant-landing/README.md) |
+| 15 | Modern E-Commerce Store | A wrapping product gallery | [README](practices/lesson-01/15-urban-store/README.md) |
 
 ## Extensions
 
@@ -58,8 +77,7 @@ curriculum/
   README.md           Learning pathway and module study materials
 practices/
   README.md           Practice lesson list
-  lesson-01/          CSS fundamentals, graded with npm test
-  visual-challenges/  Five website pages, checked by eye
+  lesson-01/          CSS fundamentals: graded 01–05, visual basics 06–10, websites 11–15
 extensions/
   README.md           VS Code extensions, including how to install Live Server
 ```
@@ -79,7 +97,7 @@ Students who are new to CSS and can open a folder in VS Code. You edit `style.cs
 7. Read the failure message, change the stylesheet, and run the test again.
 8. Open `index.html` with Live Server and review the page. Install steps are in [extensions/README.md](extensions/README.md).
 
-Finish each chapter before the next one: color, border, display, float, then flex. The [visual challenges](practices/visual-challenges/README.md) come after that flex exercise. They are website pages, and `npm test` does not grade them.
+Finish each chapter before the next one: color, border, display, float, then flex. Chapters [06–10](practices/lesson-01/README.md) are short visual pages. You edit `css/practice.css` and leave `css/base.css` as it is. Chapters [11–15](practices/lesson-01/README.md) are website projects. You edit `style.css` there. `npm test` does not grade chapters 06–15.
 
 Leave these files as they are:
 
@@ -155,7 +173,7 @@ Each push tests every practice `style.css`. A stylesheet you have not edited is 
 | --- | --- |
 | 01 · CSS fundamentals | 01 · Color, 02 · Border, 03 · Display, 04 · Float, 05 · Flex |
 
-`practices/visual-challenges/` is not a `lesson-NN` folder, so this workflow does not grade it.
+Chapters 06–15 in `practices/lesson-01/` have no `test.js`, so this workflow does not grade them. A chapter is tested only when it contains an exercise with `test.js`.
 
 A topic runs again when a stylesheet or test in that topic changes. An unchanged topic reuses its cached result. Each topic job installs Chromium before it runs the tests.
 

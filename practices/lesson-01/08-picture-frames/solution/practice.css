@@ -1,0 +1,30 @@
+/*
+ * SOLUTION
+ * This file replaces css/practice.css.
+ * The border and the mat colors stay in the shared base.css.
+ */
+
+.frame-pad-20 {
+  padding: 20px;
+}
+
+.frame-pad-40 {
+  padding: 40px;
+}
+
+.frame {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.frame-sides {
+  padding-top: 56px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  padding-left: 72px;
+}
+
+.centerpiece {
+  margin-left: auto;
+  margin-right: auto;
+}
