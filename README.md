@@ -9,6 +9,7 @@ Hands-on CSS exercises for students who are learning to style a page. Each pract
 | [Practices](#practices) | [practices/README.md](practices/README.md) |
 | [Curriculum](#curriculum) | [curriculum/README.md](curriculum/README.md) |
 | [Lesson 01 practices](#practices) | [practices/lesson-01/README.md](practices/lesson-01/README.md) |
+| [Visual CSS challenges](#visual-css-challenges) | [practices/visual-challenges/README.md](practices/visual-challenges/README.md) |
 | [Extensions](#extensions) | [extensions/README.md](extensions/README.md) |
 | [Repository structure](#repository-structure) | Folders in this repo |
 | [Who it is for](#who-it-is-for) | |
@@ -32,6 +33,19 @@ You edit `style.css` in an exercise folder, read that folder's `README.md`, and 
 | Lesson | README |
 | --- | --- |
 | 01 — CSS fundamentals | [practices/lesson-01/README.md](practices/lesson-01/README.md) |
+| Visual CSS challenges | [practices/visual-challenges/README.md](practices/visual-challenges/README.md) |
+
+## Visual CSS challenges
+
+Five pages for after the flex exercise. Students build a travel site, a film shelf, a profile, a restaurant, and a shop with HTML and CSS only. The starter stylesheet has TODO comments. The finished page is in each exercise’s `solution/` folder. `npm test` does not grade these. Briefs and previews are in [practices/visual-challenges/README.md](practices/visual-challenges/README.md).
+
+| # | Exercise | Difficulty | Main CSS topics | Time | Brief | Preview |
+| --- | --- | --- | --- | --- | --- | --- |
+| 06 | Travel Destination Explorer | Beginner | Flex row, gap, alignment, `object-fit` | 30–40 min | [README](practices/visual-challenges/06-travel-explorer/README.md) | [preview](practices/visual-challenges/06-travel-explorer/preview.png) |
+| 07 | Movie Streaming Gallery | Beginner | Wrapping flex, hover, dark theme | 35–45 min | [README](practices/visual-challenges/07-movie-gallery/README.md) | [preview](practices/visual-challenges/07-movie-gallery/preview.png) |
+| 08 | Professional Profile Dashboard | Beginner+ | Nested flex, column, circular image | 35–45 min | [README](practices/visual-challenges/08-profile-dashboard/README.md) | [preview](practices/visual-challenges/08-profile-dashboard/preview.png) |
+| 09 | Restaurant Landing Page | Beginner+ | Navigation, hero, dish cards | 40–45 min | [README](practices/visual-challenges/09-restaurant-landing/README.md) | [preview](practices/visual-challenges/09-restaurant-landing/preview.png) |
+| 10 | Modern E-Commerce Store | Beginner+ | Product gallery, `flex`, `object-fit` | 40–45 min | [README](practices/visual-challenges/10-urban-store/README.md) | [preview](practices/visual-challenges/10-urban-store/preview.png) |
 
 ## Extensions
 
@@ -41,12 +55,13 @@ You edit `style.css` in an exercise folder, read that folder's `README.md`, and 
 
 ```text
 curriculum/
-  README.md     Learning pathway and module study materials
+  README.md           Learning pathway and module study materials
 practices/
-  README.md     Practice lesson list
-  lesson-01/    CSS fundamentals
+  README.md           Practice lesson list
+  lesson-01/          CSS fundamentals, graded with npm test
+  visual-challenges/  Five website pages, checked by eye
 extensions/
-  README.md     VS Code extensions, including how to install Live Server
+  README.md           VS Code extensions, including how to install Live Server
 ```
 
 ## Who it is for
@@ -64,7 +79,7 @@ Students who are new to CSS and can open a folder in VS Code. You edit `style.cs
 7. Read the failure message, change the stylesheet, and run the test again.
 8. Open `index.html` with Live Server and review the page. Install steps are in [extensions/README.md](extensions/README.md).
 
-Finish each chapter before the next one: color, border, display, float, then flex.
+Finish each chapter before the next one: color, border, display, float, then flex. The [visual challenges](practices/visual-challenges/README.md) come after that flex exercise. They are website pages, and `npm test` does not grade them.
 
 Leave these files as they are:
 
@@ -139,6 +154,8 @@ Each push tests every practice `style.css`. A stylesheet you have not edited is 
 | Group | Topics |
 | --- | --- |
 | 01 · CSS fundamentals | 01 · Color, 02 · Border, 03 · Display, 04 · Float, 05 · Flex |
+
+`practices/visual-challenges/` is not a `lesson-NN` folder, so this workflow does not grade it.
 
 A topic runs again when a stylesheet or test in that topic changes. An unchanged topic reuses its cached result. Each topic job installs Chromium before it runs the tests.
 

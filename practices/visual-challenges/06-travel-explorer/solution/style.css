@@ -1,0 +1,265 @@
+/*
+  Exercise 06 — finished reference.
+  Students edit the stylesheet next to index.html, not this file.
+*/
+
+:root {
+  --sand: #f3eee4;
+  --paper: #fffdf9;
+  --ink: #1c1917;
+  --muted: #57534e;
+  --teal: #0f3d3e;
+  --coral: #c4533a;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--sand);
+  color: var(--ink);
+  font-family: "Source Sans 3", "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+a:focus-visible,
+.button:focus-visible {
+  outline: 3px solid var(--coral);
+  outline-offset: 3px;
+}
+
+.site-header,
+.hero,
+.destinations,
+.plan,
+.site-footer {
+  width: min(1120px, calc(100% - 40px));
+  margin-inline: auto;
+}
+
+.logo {
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 640;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.95rem;
+  color: var(--teal);
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav a:hover {
+  color: var(--coral);
+}
+
+.hero {
+  padding: 28px 0 36px;
+}
+
+.eyebrow {
+  color: var(--coral);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+.logo {
+  font-family: "Fraunces", "Iowan Old Style", Georgia, serif;
+}
+
+h1 {
+  margin-top: 12px;
+  font-size: clamp(3rem, 7vw, 5.4rem);
+  font-weight: 520;
+  letter-spacing: -0.03em;
+  line-height: 0.95;
+}
+
+.subtitle {
+  margin-top: 16px;
+  max-width: 28ch;
+  color: var(--muted);
+  font-size: 1.35rem;
+}
+
+.section-heading {
+  margin: 12px 0 24px;
+}
+
+.section-heading h2 {
+  font-size: 2rem;
+  font-weight: 520;
+}
+
+.section-heading p {
+  margin-top: 8px;
+  color: var(--muted);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 18px 20px 20px;
+}
+
+.country {
+  color: var(--coral);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.card h3 {
+  margin: 4px 0 8px;
+  font-size: 1.8rem;
+  font-weight: 520;
+}
+
+.card h3 + p {
+  color: var(--muted);
+}
+
+.price {
+  font-weight: 700;
+  color: var(--teal);
+}
+
+.button {
+  display: inline-block;
+  background: var(--teal);
+  color: #fffdf9;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 10px 16px;
+  border-radius: 999px;
+}
+
+.button:hover {
+  background: var(--coral);
+}
+
+.plan {
+  margin-top: 56px;
+  padding: 28px 0 8px;
+  border-top: 1px solid rgba(28, 25, 23, 0.12);
+}
+
+.plan h2 {
+  font-size: 1.8rem;
+  font-weight: 520;
+}
+
+.plan p {
+  margin-top: 8px;
+  max-width: 62ch;
+  color: var(--muted);
+}
+
+.site-footer {
+  padding: 36px 0 48px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.site-footer p + p {
+  margin-top: 6px;
+}
+
+.site-footer a {
+  color: var(--teal);
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 22px 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.cards {
+  display: flex;
+  align-items: stretch;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 calc(33.333% - 16px);
+  max-width: calc(33.333% - 16px);
+  background: var(--paper);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(28, 25, 23, 0.12);
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 18px;
+}
+
+@media (max-width: 800px) {
+  .site-header {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}

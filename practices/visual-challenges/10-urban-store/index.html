@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UrbanGear</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Edit style.css. Leave this HTML as it is. -->
+    <header class="site-header">
+        <a class="logo" href="#top">UrbanGear</a>
+        <nav class="nav" aria-label="Primary">
+            <a href="#promo">New</a>
+            <a href="#shop">Shop</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <main id="top">
+        <section id="promo" class="promo">
+            <p class="eyebrow">Spring drop</p>
+            <h1>Gear for the city</h1>
+            <p>Six essentials, photographed and priced. Nothing here is added to a cart.</p>
+            <a class="button button-light" href="#shop">Shop the edit</a>
+        </section>
+
+        <section id="shop" class="shop" aria-labelledby="shop-title">
+            <div class="section-heading">
+                <h2 id="shop-title">The edit</h2>
+                <p>A short list for the season. Every piece in the edit is below.</p>
+            </div>
+            <nav class="filters" aria-label="Product categories">
+                <a href="#shop" aria-current="page">All</a>
+                <a href="#shop">Audio</a>
+                <a href="#shop">Wearables</a>
+                <a href="#shop">Bags</a>
+                <a href="#shop">Footwear</a>
+                <a href="#shop">Photo</a>
+            </nav>
+            <ul class="products">
+                <li class="product">
+                    <img src="assets/images/headphones.jpg" alt="Black over-ear headphones on a yellow background">
+                    <p class="badge">Sale</p>
+                    <h3>Studio Headphones</h3>
+                    <p class="price"><s>$189</s> $129</p>
+                    <a class="button" href="#cart">Add to Cart</a>
+                </li>
+                <li class="product">
+                    <img src="assets/images/smartwatch.jpg" alt="A white smartwatch with a round black face">
+                    <p class="badge">Sale</p>
+                    <h3>City Smartwatch</h3>
+                    <p class="price"><s>$199</s> $149</p>
+                    <a class="button" href="#cart">Add to Cart</a>
+                </li>
+                <li class="product">
+                    <img src="assets/images/backpack.jpg" alt="A black daypack standing against a white wall">
+                    <h3>Daypack Backpack</h3>
+                    <p class="price">$89</p>
+                    <a class="button" href="#cart">Add to Cart</a>
+                </li>
+                <li class="product">
+                    <img src="assets/images/sneakers.jpg" alt="A pair of gray mesh sneakers held above an open hand">
+                    <p class="badge">Sale</p>
+                    <h3>Court Sneakers</h3>
+                    <p class="price"><s>$110</s> $79</p>
+                    <a class="button" href="#cart">Add to Cart</a>
+                </li>
+                <li class="product">
+                    <img src="assets/images/camera.jpg" alt="A compact silver and black camera on a pale table">
+                    <h3>Compact Camera</h3>
+                    <p class="price">$240</p>
+                    <a class="button" href="#cart">Add to Cart</a>
+                </li>
+                <li class="product">
+                    <img src="assets/images/sunglasses.jpg" alt="Round gold-framed sunglasses on a marble surface">
+                    <p class="badge">Sale</p>
+                    <h3>Round Sunglasses</h3>
+                    <p class="price"><s>$68</s> $45</p>
+                    <a class="button" href="#cart">Add to Cart</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="about" class="site-footer">
+        <p id="cart">UrbanGear is a classroom storefront. Add to Cart does not buy anything.</p>
+        <p>Product photographs are used under the Unsplash License. See <a href="assets/images/credits.md">image credits</a>.</p>
+    </footer>
+</body>
+</html>

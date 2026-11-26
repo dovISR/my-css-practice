@@ -1,0 +1,224 @@
+/*
+  Exercise 08 — Professional Profile Dashboard
+  Color, type, and the banner size are started.
+  The centering, the rows, and the circular portrait are yours.
+*/
+
+:root {
+  --page: #e7edf4;
+  --paper: #ffffff;
+  --ink: #0f172a;
+  --muted: #475569;
+  --indigo: #3730a3;
+  --indigo-soft: #e0e7ff;
+  --line: #e2e8f0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: Inter, "Avenir Next", "Segoe UI", sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+a:focus-visible,
+.button:focus-visible {
+  outline: 3px solid var(--indigo);
+  outline-offset: 3px;
+}
+
+.page {
+  padding: 32px 16px;
+}
+
+.profile {
+  width: min(680px, 100%);
+  background: var(--paper);
+  border-radius: 24px;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.12);
+  overflow: hidden;
+  padding-bottom: 32px;
+}
+
+.banner {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.identity,
+.social,
+.stats,
+.skills,
+.button {
+  margin-inline: 28px;
+}
+
+.identity {
+  margin-top: 16px;
+}
+
+h1 {
+  font-size: 2.1rem;
+  letter-spacing: -0.03em;
+}
+
+.role {
+  margin-top: 4px;
+  color: var(--indigo);
+  font-weight: 700;
+}
+
+.location,
+.bio,
+.stat-label {
+  color: var(--muted);
+}
+
+.bio {
+  margin-top: 12px;
+  max-width: 48ch;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.social a {
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 6px 12px;
+}
+
+.social a:hover {
+  border-color: var(--indigo);
+  color: var(--indigo);
+}
+
+.stats {
+  margin-top: 22px;
+}
+
+.stat {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 14px 12px;
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.skills {
+  margin-top: 26px;
+}
+
+h2 {
+  font-size: 1.1rem;
+}
+
+.badges {
+  margin-top: 12px;
+}
+
+.badges li {
+  background: var(--indigo-soft);
+  color: var(--indigo);
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 6px 12px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 26px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* TODO 1:
+   Center the profile card in the page, both horizontally and vertically.
+   .page should be a Flexbox container at least as tall as the screen.
+*/
+.page {
+}
+
+/* TODO 2:
+   Stack the profile's children in a column and center them
+   on the cross axis. Use gap if you want even space,
+   and keep the banner full width. (A column with align-items: center
+   will shrink the banner unless it has width: 100% or align-self: stretch.)
+*/
+.profile {
+}
+
+/* TODO 3:
+   Make the portrait a circle.
+   It is already 128px in the rule below. Add object-fit, a round
+   corner, a white edge, and pull it up over the banner with a negative margin.
+*/
+.avatar {
+  width: 128px;
+  height: 128px;
+}
+
+/* TODO 4:
+   Lay the three statistics in one horizontal row with 16px between them.
+   Let each stat grow to share the width.
+*/
+.stats {
+}
+
+/* TODO 5:
+   Lay the skill badges in a wrapping horizontal row.
+   Center the row and leave 8px between badges.
+*/
+.badges {
+}
+
+/* TODO 6:
+   Turn the contact link into a solid indigo button with white text,
+   12px 28px of padding, and fully rounded corners.
+*/
+.button {
+}
+
+/* Bonus:
+   Under 560px, stack .stats in a column.
+   flex-direction: column; inside a max-width media query.
+*/

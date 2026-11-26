@@ -1,0 +1,241 @@
+/*
+  Exercise 09 — Restaurant Landing Page
+  The palette and the type are started.
+  The navigation, the hero, and the dish row are the layout work.
+*/
+
+:root {
+  --cream: #f6efe4;
+  --paper: #fffaf3;
+  --ink: #1c1410;
+  --muted: #5c5148;
+  --burgundy: #7a2e36;
+  --gold: #8d6a45;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: Outfit, "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--burgundy);
+}
+
+a:focus-visible,
+.button:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+}
+
+.site-header,
+.hero,
+.menu-section,
+.info,
+.site-footer {
+  width: min(1120px, calc(100% - 40px));
+  margin-inline: auto;
+}
+
+.logo {
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 1.35rem;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.logo span {
+  color: var(--burgundy);
+  font-style: italic;
+}
+
+.nav a:not(.button) {
+  text-decoration: none;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.eyebrow {
+  color: var(--burgundy);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+.dish h3 {
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-weight: 400;
+}
+
+.hero-copy p {
+  color: var(--muted);
+  max-width: 42ch;
+}
+
+.section-heading {
+  margin-bottom: 22px;
+}
+
+.section-heading h2,
+.info h2 {
+  font-size: 1.8rem;
+}
+
+.section-heading p,
+.info p,
+.dish-body p {
+  color: var(--muted);
+}
+
+.section-heading p {
+  margin-top: 8px;
+}
+
+.dish {
+  background: var(--paper);
+}
+
+.dish-body {
+  padding: 16px 16px 18px;
+}
+
+.dish h3 {
+  font-size: 1.25rem;
+  color: var(--ink);
+}
+
+.price {
+  margin-top: 10px;
+  color: var(--burgundy);
+  font-weight: 700;
+  font-family: Outfit, "Avenir Next", sans-serif;
+}
+
+.menu-section {
+  margin-top: 64px;
+}
+
+.info {
+  margin-top: 56px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(28, 20, 16, 0.12);
+}
+
+.info article + article {
+  margin-top: 18px;
+}
+
+.info h2 {
+  font-size: 1.3rem;
+}
+
+.info p {
+  margin-top: 6px;
+}
+
+.site-footer {
+  padding: 36px 0 48px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.site-footer p + p {
+  margin-top: 6px;
+}
+
+/* TODO 1:
+   Make the header a Flexbox row. Put the logo and the nav at opposite ends
+   and center them vertically. Then make .nav its own row, with 22px between links.
+*/
+.site-header {
+  padding: 22px 0;
+}
+
+.nav {
+}
+
+/* TODO 2:
+   Place the hero text and the photograph side by side.
+   Center them on the cross axis and leave 48px between them.
+   Let each side grow. Round the photograph (28px) and set a fixed height
+   so object-fit: cover can crop it.
+*/
+.hero {
+  padding-top: 12px;
+}
+
+.hero-image {
+}
+
+.hero-copy .button {
+  margin-top: 22px;
+}
+
+/* TODO 3:
+   Lay the four dishes in a wrapping Flexbox row with 22px between cards.
+   Round each card (18px) and hide the square corners of the photo.
+   Give every dish image the same height.
+*/
+.menu {
+}
+
+.dish img {
+}
+
+/* TODO 4:
+   Style .button as a burgundy pill: white text, no underline,
+   padding 12px 18px, fully rounded corners.
+*/
+.button {
+  font-weight: 700;
+}
+
+/* TODO 5:
+   Set the main headline. Aim for a large serif size, a tight line-height
+   (about 1.05), and a little space above and below it.
+*/
+h1 {
+}
+
+/* TODO 6:
+   Give the hero paragraph and the dish descriptions room to breathe.
+   A line-height around 1.6 on .hero-copy p is a good start.
+*/
+.hero-copy p {
+}
+
+/* Bonus:
+   Without JavaScript, let the navigation wrap when the row is too narrow,
+   and stack the hero (flex-direction: column) under about 800px.
+*/
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}

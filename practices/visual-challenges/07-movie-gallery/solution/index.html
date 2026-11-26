@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CineVerse</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Instructor solution. This page uses the finished stylesheet in this folder. -->
+    <header class="topbar">
+        <a class="logo" href="#top">CineVerse</a>
+        <nav class="nav" aria-label="Primary">
+            <a href="#feature">Tonight</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <main id="top">
+        <section id="feature" class="feature" aria-labelledby="feature-title">
+            <img class="feature-image" src="../assets/images/harbor-lights.jpg" alt="A city skyline across the water at dusk, with a full moon over the towers">
+            <div class="feature-copy">
+                <p class="kicker">Featured tonight</p>
+                <h1 id="feature-title">Harbor Lights</h1>
+                <p class="meta"><span class="rating">8.6</span> · Drama · 2h 08m</p>
+                <p class="synopsis">A night ferry, a letter that never arrives, and a city that refuses to sleep. One woman stays on the dock until the skyline answers.</p>
+                <a class="button" href="#gallery">Browse the shelf</a>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery" aria-labelledby="gallery-title">
+            <div class="section-heading">
+                <h2 id="gallery-title">Now showing</h2>
+                <p>Six original films, told with photographs of real places.</p>
+            </div>
+            <div class="posters">
+                <article class="poster">
+                    <img src="../assets/images/harbor-lights.jpg" alt="Skyline at dusk, the setting for Harbor Lights">
+                    <div class="poster-body">
+                        <h3>Harbor Lights</h3>
+                        <p class="genre">Drama</p>
+                        <p class="rating">8.6</p>
+                    </div>
+                </article>
+                <article class="poster">
+                    <img src="../assets/images/dust-crown.jpg" alt="Red desert buttes under a wide blue sky">
+                    <div class="poster-body">
+                        <h3>Dust &amp; Crown</h3>
+                        <p class="genre">Adventure</p>
+                        <p class="rating">8.1</p>
+                    </div>
+                </article>
+                <article class="poster">
+                    <img src="../assets/images/north-of-silence.jpg" alt="A pine forest disappearing into pale fog">
+                    <div class="poster-body">
+                        <h3>North of Silence</h3>
+                        <p class="genre">Mystery</p>
+                        <p class="rating">7.9</p>
+                    </div>
+                </article>
+                <article class="poster">
+                    <img src="../assets/images/violet-hour.jpg" alt="An empty city street at night, lit blue and violet">
+                    <div class="poster-body">
+                        <h3>Violet Hour</h3>
+                        <p class="genre">Thriller</p>
+                        <p class="rating">8.4</p>
+                    </div>
+                </article>
+                <article class="poster">
+                    <img src="../assets/images/salt-line.jpg" alt="A sunlit wave breaking close to the camera">
+                    <div class="poster-body">
+                        <h3>The Salt Line</h3>
+                        <p class="genre">Romance</p>
+                        <p class="rating">7.7</p>
+                    </div>
+                </article>
+                <article class="poster">
+                    <img src="../assets/images/glass-orchard.jpg" alt="A person standing on a ridge above forested mountains in golden light">
+                    <div class="poster-body">
+                        <h3>Glass Orchard</h3>
+                        <p class="genre">Fantasy</p>
+                        <p class="rating">8.2</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer id="about" class="site-footer">
+        <p>CineVerse is an original classroom interface. It is not a streaming service, and these films are not for sale.</p>
+        <p>Scene photographs are used under the Unsplash License. See <a href="../assets/images/credits.md">image credits</a>.</p>
+    </footer>
+</body>
+</html>

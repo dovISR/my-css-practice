@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Taste &amp; Table</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Instructor solution. This page uses the finished stylesheet in this folder. -->
+    <header class="site-header">
+        <a class="logo" href="#top">Taste <span>&amp;</span> Table</a>
+        <nav class="nav" aria-label="Primary">
+            <a href="#menu">Menu</a>
+            <a href="#visit">Visit</a>
+            <a href="#reserve">Reserve</a>
+            <a class="button" href="#reserve">Book a table</a>
+        </nav>
+    </header>
+
+    <main id="top">
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">Tel Aviv · Evening service</p>
+                <h1>Dinner, made to be shared</h1>
+                <p>Seasonal plates, a warm room, and a table that stays yours for the evening. Taste &amp; Table cooks a short menu and serves it family style.</p>
+                <a class="button" href="#menu">See the dishes</a>
+            </div>
+            <img class="hero-image" src="../assets/images/dining-room.jpg" alt="A shared restaurant table with wine glasses, bread, and a plated dish">
+        </section>
+
+        <section id="menu" class="menu-section" aria-labelledby="menu-title">
+            <div class="section-heading">
+                <h2 id="menu-title">Featured dishes</h2>
+                <p>Four plates from this week’s menu. Prices are per plate, in shekels.</p>
+            </div>
+            <div class="menu">
+                <article class="dish">
+                    <img src="../assets/images/pasta.jpg" alt="Farfalle pasta with pesto, tomatoes, and greens">
+                    <div class="dish-body">
+                        <h3>Italian Pasta</h3>
+                        <p>Bowties, basil pesto, and tomatoes finished with olive oil.</p>
+                        <p class="price">₪68</p>
+                    </div>
+                </article>
+                <article class="dish">
+                    <img src="../assets/images/burger.jpg" alt="A tall gourmet burger with cheese, pickles, and sauce">
+                    <div class="dish-body">
+                        <h3>Gourmet Burger</h3>
+                        <p>Two beef patties, aged cheddar, and a toasted sesame bun.</p>
+                        <p class="price">₪74</p>
+                    </div>
+                </article>
+                <article class="dish">
+                    <img src="../assets/images/salad.jpg" alt="A colorful Mediterranean salad bowl with avocado, tomatoes, and greens">
+                    <div class="dish-body">
+                        <h3>Fresh Mediterranean Salad</h3>
+                        <p>Avocado, chickpeas, herbs, and a lemon dressing.</p>
+                        <p class="price">₪58</p>
+                    </div>
+                </article>
+                <article class="dish">
+                    <img src="../assets/images/pizza.jpg" alt="A sliced artisan pizza with melted cheese and tomatoes on a wooden board">
+                    <div class="dish-body">
+                        <h3>Artisan Pizza</h3>
+                        <p>A blistered crust, mozzarella, and rosemary from the oven.</p>
+                        <p class="price">₪66</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="visit" class="info" aria-label="Restaurant information">
+            <article>
+                <h2>Hours</h2>
+                <p>Tuesday to Sunday, 18:00–23:30. Closed Monday.</p>
+            </article>
+            <article>
+                <h2>Visit</h2>
+                <p>Taste &amp; Table<br>18 HaYarkon Street<br>Tel Aviv, Israel</p>
+            </article>
+            <article id="reserve">
+                <h2>Reserve</h2>
+                <p>Write to <a href="mailto:hello@example.com">hello@example.com</a> or call the desk. This page does not take a booking.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Taste &amp; Table is a fictional restaurant built as a CSS exercise.</p>
+        <p>Food photographs are used under the Unsplash License. See <a href="../assets/images/credits.md">image credits</a>.</p>
+    </footer>
+</body>
+</html>
